@@ -112,7 +112,7 @@ function App() {
               <div className='car-data'>
               {selectedCar ? (
                   <div className='expanded-car' onClick={() => setSelectedCar(null)}>
-                      <img src={`src/assets/Logos/${selectedCar.make.name}.png`}></img>
+                      <img src={`./assets/Logos/${selectedCar.make.name}.png`}></img>
                       <h2>{selectedCar.make.name}</h2>
                       <p>{selectedCar.name}</p>
                   </div>
